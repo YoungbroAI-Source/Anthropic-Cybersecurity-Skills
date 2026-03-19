@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-03-19T12:27:09Z",
+  "generated_at": "2026-03-19T12:30:01Z",
   "repository": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
   "total_skills": 745,
   "total_domains": 1,
@@ -12,7 +12,7 @@
     "digital-forensics": 37,
     "identity-security": 2,
     "malware-analysis": 39,
-    "security-operations": 36,
+    "security-operations": 32,
     "threat-intelligence": 51,
     "cloud-security": 60,
     "soc-operations": 33,
@@ -31,7 +31,7 @@
     "vulnerability-management": 25,
     "web-application-security": 42,
     "penetration-testing": 23,
-    "zero-trust-architecture": 13,
+    "zero-trust-architecture": 17,
     "cryptography": 14,
     "endpoint-security": 17,
     "ot-ics-security": 28,
@@ -72,12 +72,12 @@
       "count": 40
     },
     {
-      "tag": "owasp",
+      "tag": "network-security",
       "count": 37
     },
     {
-      "tag": "network-security",
-      "count": 36
+      "tag": "owasp",
+      "count": 37
     },
     {
       "tag": "forensics",
@@ -90,6 +90,10 @@
     {
       "tag": "web-security",
       "count": 30
+    },
+    {
+      "tag": "zero-trust",
+      "count": 29
     },
     {
       "tag": "api-security",
@@ -117,10 +121,6 @@
     },
     {
       "tag": "proactive-detection",
-      "count": 25
-    },
-    {
-      "tag": "zero-trust",
       "count": 25
     },
     {
@@ -2967,9 +2967,13 @@
       "name": "configuring-microsegmentation-for-zero-trust",
       "description": "Configure microsegmentation policies to enforce least-privilege workload-to-workload access using tools like VMware NSX, Illumio, and Calico, preventing lateral movement in zero trust architectures.",
       "domain": "cybersecurity",
-      "subdomain": "security-operations",
+      "subdomain": "zero-trust-architecture",
       "tags": [
-        "cybersecurity"
+        "zero-trust",
+        "microsegmentation",
+        "network-access",
+        "lateral-movement",
+        "network-security"
       ],
       "version": "1.0",
       "author": "mukul975",
@@ -3377,9 +3381,13 @@
       "name": "deploying-software-defined-perimeter",
       "description": "Deploy a Software-Defined Perimeter using the CSA v2.0 specification with Single Packet Authorization, mutual TLS, and SDP controller/gateway configuration to enforce zero trust network access.",
       "domain": "cybersecurity",
-      "subdomain": "security-operations",
+      "subdomain": "zero-trust-architecture",
       "tags": [
-        "cybersecurity"
+        "zero-trust",
+        "sdp",
+        "software-defined-perimeter",
+        "network-access",
+        "ztna"
       ],
       "version": "1.0",
       "author": "mukul975",
@@ -7779,9 +7787,13 @@
       "name": "implementing-identity-verification-for-zero-trust",
       "description": "Implement continuous identity verification for zero trust using phishing-resistant MFA (FIDO2/WebAuthn), risk-based conditional access, and identity governance aligned with the CISA Zero Trust Maturity Model.",
       "domain": "cybersecurity",
-      "subdomain": "security-operations",
+      "subdomain": "zero-trust-architecture",
       "tags": [
-        "cybersecurity"
+        "zero-trust",
+        "identity",
+        "authentication",
+        "mfa",
+        "identity-verification"
       ],
       "version": "1.0",
       "author": "mukul975",
@@ -9422,11 +9434,15 @@
     },
     {
       "name": "implementing-zero-trust-network-access-with-zscaler",
-      "description": "Implementing Zero Trust Network Access With Zscaler",
+      "description": "Implement Zero Trust Network Access using Zscaler Private Access (ZPA) to replace traditional VPN with identity-based, context-aware access to private applications through the Zscaler Zero Trust Exchange.",
       "domain": "cybersecurity",
-      "subdomain": "security-operations",
+      "subdomain": "zero-trust-architecture",
       "tags": [
-        "cybersecurity"
+        "zero-trust",
+        "ztna",
+        "zscaler",
+        "network-access",
+        "vpn-replacement"
       ],
       "version": "1.0",
       "author": "mukul975",
